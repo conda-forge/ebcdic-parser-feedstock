@@ -1,5 +1,5 @@
 {% set name = "ebcdic-parser" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ebcdic_parser-{{ version }}.tar.gz
-  sha256: 60cda9967d4d6c1deaa9b75a25b27e4f0fd76d3f6718ab4fd2da726f4b9ded9c
+  sha256: 863015f603698d0a27ebeff3ef75c34d5a8f5fea5080f295049933d7c9bfe952
 
 build:
   noarch: python
